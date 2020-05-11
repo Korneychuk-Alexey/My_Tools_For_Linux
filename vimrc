@@ -50,4 +50,11 @@ runtime! debian.vim
 if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
+" on number
+set number 
+" syntex 
+syntex on
+" to change color scheme : default, blue, darkblue, delek, desert, elford, evening, industry, koehler, 
+" morning, murphy, pablo, peachpuff, ron, shine, slate, torte, zellner
+colorscheme 
 
